@@ -34,10 +34,11 @@ body {
   background-color: burlywood;
   position: fixed;
   height: 350px;
+  overflow-y: auto;
 }
 .nav a {
   color: black;
-  display: contents;
+  display: block;
   padding: 12px;
   text-decoration: none;
 }
