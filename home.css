@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: greenyellow;
+  padding: 10px;
+  background-image: url(https://as2.ftcdn.net/v2/jpg/01/46/94/07/1000_F_146940795_pXEAgxn5Glu8Zil5SST9vls72w6nR8k6.jpg);
+}
+
+/*---MENU---*/
+.menu {
+  overflow: hidden; /*Khi chiều cao của box không đủ chứa text, thì text bị tràn sẽ được dấu đi.*/
+  background-color: orangered;
+}
+.menu a {
+  float: left; /*đưa các tp về bên trái*/
+  color: #f2f2f2; /*màu chữ*/
+  padding: 14px 16px;
+  text-decoration: none; /*chế độ không định dạng*/
+}
+/*tạo hiệu ứng khi lia chuột*/
+.menu a:hover  {
+  background-color: #ddd;
+  color: black;
+}
+
+/*--NAV--*/
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  width: 15%;
+  background-color: burlywood;
+  position: fixed;
+  height: 350px;
+}
+.nav a {
+  color: black;
+  display: contents;
+  padding: 12px;
+  text-decoration: none;
+}
+.nav a:hover {
+  background-color: #555;
+  color: white;
+}
+/*--CONTENT--*/
+.content {
+  margin-left:15%;
+  padding:1px 16px;
+  height:1000px;
+}
+/*---ADS---*/
+/* .ads a {
+  background: hotpink;
+  height: 400px;
+  order: 3;
+} */
+
+.footer {  
+  background-color: #e9d8f4;  
+  color: #58257b;  
+  padding: 5px;  
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+/*--Gio hang--*/
+.cart {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.cart table {
+    width: 100%;
+}
+/* Dua table 1x1 ve phia ben trai */
+.cart table thead tr th:first-child{
+    text-align: left;
+}
+/* duong ke ngan cach */
+.cart table tr td {
+    border-bottom: 1px solid brown;
+    padding: 12px;
+}
+/* Dua table 1x4 ve phia ben phai*/
+.cart table thead tr th:last-child {
+    text-align: right;
+}
+.cart table tbody tr td:last-child {
+    text-align: right;
+}
